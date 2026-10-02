@@ -1,0 +1,29 @@
+{
+  "schedule": {
+    "start": "08:30",
+    "market_open": "09:15",
+    "end": "09:30",
+    "pre_market_interval_seconds": 300,
+    "post_market_interval_seconds": 60,
+    "github_push_interval_seconds": 300
+  },
+  "strategy": {
+    "cue_threshold": 50,
+    "normal_gap_low": -100,
+    "normal_gap_high": 100
+  },
+  "api": {
+    "timeout_seconds": 15,
+    "max_retries": 3,
+    "retry_backoff_seconds": 2
+  },
+  "github": {
+    "enabled": true,
+    "remote": "origin",
+    "branch": "main"
+  },
+  "output": {
+    "data_directory": "data",
+    "log_directory": "logs"
+  }
+}

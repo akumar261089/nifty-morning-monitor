@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIFTY Morning Monitor</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>NIFTY Morning Monitor</h1>
+      <p>GIFT NIFTY • NIFTY Futures • NIFTY 50 Gap • Signals</p>
+    </div>
+    <div class="status">
+      <span id="statusDot" class="dot"></span>
+      <span id="statusText">Loading...</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <label>
+        Trading Date
+        <select id="dateSelect"></select>
+      </label>
+      <button id="refreshBtn">Refresh</button>
+      <span id="lastUpdated"></span>
+    </section>
+
+    <section id="summary" class="cards"></section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Timeline</h2>
+        <span id="recordCount"></span>
+      </div>
+      <div class="table-wrap">
+        <table id="timelineTable">
+          <thead>
+            <tr>
+              <th>System Time</th>
+              <th>GIFT Nifty</th>
+              <th>NIFTY Future</th>
+              <th>Cue</th>
+              <th>Open</th>
+              <th>Prev Close</th>
+              <th>Gap</th>
+              <th>Gap Status</th>
+              <th>Signal</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Selected Record — Full Data</h2>
+      </div>
+      <pre id="rawJson">Select a timeline row.</pre>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Complete Day JSON</h2>
+        <button id="copyJsonBtn">Copy JSON</button>
+      </div>
+      <pre id="dayJson">Loading...</pre>
+    </section>
+  </main>
+
+  <footer>
+    <span>NIFTY Morning Monitor</span>
+    <span>Timezone: Asia/Kolkata</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
