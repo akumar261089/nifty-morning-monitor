@@ -265,8 +265,230 @@
       "decision": {
         "signal": "PUT BUY"
       }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:16:00.003146+05:30",
+      "system_timestamp": 1791171960,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22630,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22643.5,
+        "api_time_ist": "2026-10-05T09:15:00+05:30"
+      },
+      "cue": {
+        "value": 13.5,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:17:00.002444+05:30",
+      "system_timestamp": 1791172020,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22630,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22637.5,
+        "api_time_ist": "2026-10-05T09:16:00+05:30"
+      },
+      "cue": {
+        "value": 7.5,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:18:00.002035+05:30",
+      "system_timestamp": 1791172080,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22630,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22660.5,
+        "api_time_ist": "2026-10-05T09:17:00+05:30"
+      },
+      "cue": {
+        "value": 30.5,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:19:00.003280+05:30",
+      "system_timestamp": 1791172140,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22630,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22664.5,
+        "api_time_ist": "2026-10-05T09:18:00+05:30"
+      },
+      "cue": {
+        "value": 34.5,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:20:00.011712+05:30",
+      "system_timestamp": 1791172200,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22630,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22653.0,
+        "api_time_ist": "2026-10-05T09:19:00+05:30"
+      },
+      "cue": {
+        "value": 23.0,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:21:00.000677+05:30",
+      "system_timestamp": 1791172260,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22674.8,
+        "api_time_ist": "2026-10-05T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22648.0,
+        "api_time_ist": "2026-10-05T09:20:00+05:30"
+      },
+      "cue": {
+        "value": -26.799999999999272,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22535.3,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 113.34999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
     }
   ],
-  "last_updated_system_time_ist": "2026-10-05T09:15:00.001988+05:30",
+  "last_updated_system_time_ist": "2026-10-05T09:21:00.000677+05:30",
   "last_signal": "PUT BUY"
 }
