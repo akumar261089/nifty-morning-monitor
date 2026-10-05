@@ -9,8 +9,8 @@
   },
   "strategy": {
     "cue_threshold": 50,
-    "normal_gap_low": -100,
-    "normal_gap_high": 100
+    "normal_gap_low": -120,
+    "normal_gap_high": 120
   },
   "api": {
     "timeout_seconds": 15,
