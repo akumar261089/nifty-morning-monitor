@@ -191,8 +191,82 @@
       "decision": {
         "signal": "WAITING_FOR_MARKET"
       }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:10:00.002945+05:30",
+      "system_timestamp": 1791171600,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22530.3,
+        "api_time_ist": "2026-10-01T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22613.0,
+        "api_time_ist": "2026-10-05T09:09:00+05:30"
+      },
+      "cue": {
+        "value": 82.70000000000073,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": null,
+        "today_open_api_time_ist": null,
+        "previous_day_close": null,
+        "previous_day_close_api_time_ist": null
+      },
+      "gap": {
+        "value": null,
+        "status": "WAITING_FOR_MARKET",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "WAITING_FOR_MARKET"
+      }
+    },
+    {
+      "system_time_ist": "2026-10-05T09:15:00.001988+05:30",
+      "system_timestamp": 1791171900,
+      "nifty_futures": {
+        "symbol": "NIFTY26OCTFUT",
+        "expiry_date": "2026-10-27",
+        "last_close": 22530.3,
+        "api_time_ist": "2026-10-01T05:30:00+05:30"
+      },
+      "gift_nifty": {
+        "last_price": 22619.5,
+        "api_time_ist": "2026-10-05T09:14:00+05:30"
+      },
+      "cue": {
+        "value": 89.20000000000073,
+        "formula": "GIFT_NIFTY - NIFTY_FUTURES",
+        "threshold": 50.0
+      },
+      "market": {
+        "market_open_time_ist": "09:15:00",
+        "today_open": 22525.55,
+        "today_open_api_time_ist": "2026-10-05T09:15:00+05:30",
+        "previous_day_close": 22421.95,
+        "previous_day_close_api_time_ist": "2026-10-01T15:30:00+05:30"
+      },
+      "gap": {
+        "value": 103.59999999999854,
+        "status": "GAP_UP",
+        "normal_range": [
+          -100.0,
+          100.0
+        ]
+      },
+      "decision": {
+        "signal": "PUT BUY"
+      }
     }
   ],
-  "last_updated_system_time_ist": "2026-10-05T09:05:00.005661+05:30",
-  "last_signal": "WAITING_FOR_MARKET"
+  "last_updated_system_time_ist": "2026-10-05T09:15:00.001988+05:30",
+  "last_signal": "PUT BUY"
 }
